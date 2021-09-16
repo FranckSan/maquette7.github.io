@@ -1,0 +1,337 @@
+body{
+    margin: 0;
+    font-family: Century Gothic;
+    /* background-color: rgba(0, 0, 0, 0.007); */
+}
+
+.blue_text{
+    color: blue;
+}
+p{
+    font-weight: bold;
+}
+
+h4{
+    color: silver;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 0 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 67%;
+    height: 50px;
+    margin-top: 18px;
+    /* border: 1px solid blue; */
+}
+.menu{
+    text-align: center;
+    height: 30px;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+.hiden{
+    opacity: 0;
+}
+.btn_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 90px;
+    color: #fff;
+    background-color: #e82849;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.top{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 100px;
+}
+
+
+
+
+.top_left{
+    margin-top: 100px;
+    width: 55%;
+}
+#lieu{
+    width: 13px;
+    padding-right: 7px;
+}
+#title_top{
+    font-size: 45px;
+    line-height: 70px;
+}
+#text_top{
+    color: silver;
+    font-size: medium;
+    font-weight: normal;
+    line-height: 25px;
+}
+#icon{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 40px 0;
+}
+.icon_paysage{
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+.icon_pays{
+    border-radius: 70px;
+    width: 98%;
+}
+#select{
+    border: 2px solid red;
+    border-radius: 77px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    background-color: #e82849;
+    border-radius: 7px;
+}
+
+
+
+
+.top_right{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 600px;
+    padding-top: 50px;
+    /* border: 1px solid black; */
+}
+/* .image_principale{
+    border: 1px solid red;
+} */
+#img_p{
+    width: 90%;
+    height: 600px;
+    border-radius: 50% 50% 0% 0%;
+    /* border: 1px solid rgb(197, 207, 253); */
+}
+.rec_bull{
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 70px;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: 0px 0px 2px rgb(218, 216, 216);
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+    padding-left: 6px;
+    height: 70%;
+    justify-content: center;
+}
+#icon_user{
+    position: absolute;
+    top: 20px;
+    right: 120px;
+}
+#icon_des{
+    position: absolute;
+    top: 120px;
+    right: 420px;
+}
+#icon_vis{
+    position: absolute;
+    top: 420px;
+    right: 240px;
+}
+.blue_text_icon{
+    color: blue;
+    margin: 0;
+}
+/* .para{
+    margin: 0;
+    padding: 0;
+} */
+.icon_info{
+    width: 50px;
+    height: 50px;
+}
+.test{
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.middle{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 134px;
+    background-color: rgb(253, 253, 253);
+}
+.icon_middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+}
+.logo_1{
+    width: 190px;
+    height: 70%;
+}
+.logo_2{
+    width: 170px;
+    height: 90%;
+}
+.logo_3{
+    width: 100px;
+    height: 90%;
+}
+
+
+
+
+
+
+
+
+
+.bottom{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 600px;
+    margin: 0 100px;
+}
+
+
+
+
+.bottom_left{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    height: 80%;
+}
+#title_bottom{
+    font-size: 45px;
+    line-height: 70px;
+}
+#bottom_para{
+    color: silver;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+
+
+
+.bottom_right{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 60%;
+    /* border: 1px solid red; */
+}
+.box{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 0px 30px;
+    height: 220px;
+    width: 220px;
+}
+.icon_bottom{
+    height: auto;
+}
+.icon_blue{
+    width: 40px;
+    height: 35px;
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: blue;
+    border-radius: 7px;
+}
+.box_text{
+    color: silver;
+    font-weight: normal;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+}
+.box_title{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+.hiden:hover{
+    opacity: 1;
+}
+.menu:hover{
+    opacity: 1;
+    color: blue;
+}
+.box:hover{
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px silver;
+}
